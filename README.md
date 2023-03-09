@@ -16,4 +16,4 @@ It would most likely also be more efficient to write this program in a higher-le
 ## How to use
 The number of digits calculated is currently hard-coded in the assembly file. To change how many digits are calculated and printed out, simply change this line: `%define DIGIT_COUNT [Your number here]`. An ELF64 executable can be built using `make main`.
 
-To test the accuracy of the algorithm against known digits of pi, the `test.sh` can be used. This script automatically compiles and run the executable, and then compares its output against the first 1,000,000 digits of Pi (provided under the file `pi-million.txt`)
+To test the accuracy of the algorithm against known digits of pi, the `test.sh` file can be used. This script automatically compiles and runs the executable, and then compares its output against the first 1,000,000 digits of Pi (provided under the file `pi-million.txt`)
