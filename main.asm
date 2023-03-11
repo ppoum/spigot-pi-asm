@@ -28,7 +28,6 @@ _start:
     call reduce_array
     call extract_digit      ; pi digit in ax
 
-    ; NOT_FIRST_ITER:
     inc rbx
     cmp rbx, DIGIT_COUNT
     jl LOOP_START           ; loop DIGIT_COUNT times
