@@ -1,4 +1,4 @@
-# spigt-pi-asm
+# spigot-pi-asm
 
 ## Introduction
 This project implements the spigot algorithm used to compute the digits of Pi as outline in [Rabinowitz, S., & Wagon, S. (1995). A Spigot Algorithm for the Digits of π. The American Mathematical Monthly, 102(3), 195–203](https://doi.org/10.2307/2975006). This type of algorithm offers two main advantages over regular algorithms:
